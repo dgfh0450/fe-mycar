@@ -25,9 +25,7 @@ const navbar = [
 export default function Header () {
     return (
         <header className="w-full h-[80px] flex flex-row items-center justify-center space-x-8">
-            <div>
-                HYUNDAI
-            </div>
+            <img src='/public/hyundai.svg' className="w-[160px]"/>
             <nav>
                 <ul className="flex flex-row flex-1 space-x-8 text-[black]">
                     {navbar.map(nav => <li><Link to='/'>{nav.title}</Link></li>)}
