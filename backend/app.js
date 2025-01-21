@@ -22,11 +22,13 @@ app.use('/test', (req,res)=>{
     res.json({
         "result": true
     })
-})
+});
 // Routes
 app.use('/api/car', carRoutes);
+
 //Images
-app.use('/images', express.static('images'))
+app.use('/images', express.static('images'));
+
 
 // Error handling middleware
 app.use(errorHandler);

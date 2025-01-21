@@ -1,5 +1,6 @@
 const path = require("path");
 
+// 사용자 데이터 가져오기
 exports.getModels = async (req, res) => {
     const cars = await readData();
 
