@@ -25,6 +25,8 @@ app.use('/test', (req,res)=>{
 })
 // Routes
 app.use('/api/car', carRoutes);
+//Images
+app.use('/images', express.static('images'))
 
 // Error handling middleware
 app.use(errorHandler);
