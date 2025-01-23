@@ -104,4 +104,3 @@ export default function CarDescription({ mode, setMode, model, preview }: Props)
         </div>
     )
 }
-

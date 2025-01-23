@@ -15,7 +15,6 @@ export enum CustomMode {
     "option"
 }
 
-
 const Model = () => {
 
     const [models, setModels] = useState<Tmodel[]>([]);
